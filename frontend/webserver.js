@@ -20,8 +20,8 @@ const server = http.createServer((req, res) => {
 
     fs.readFile(file_path, (err, data) => {
         if (err) {
-            res.statusCode = 400;
-            res.write('400');
+            res.statusCode = 404;
+            res.write('404');
         } else {
             res.write(data);
         }
