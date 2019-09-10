@@ -8,20 +8,17 @@ All interface screens can be found on [Figma](https://www.figma.com/file/PXfi1Xe
 
 ## Development:
 
-* cd frontend
-* npm install
-* npm run [ dev-server || watch || dev ]
+* ```cd frontend```
+* ```npm install```
+* ```npm run dev-server```
 
 dev-server: watch files with live-reload browser
 
-watch: watch files with just generating files
-
-dev: generate files
-
-
 ## Prod: 
 
-Dist files can be generated via ```npm run build```.
+You can ```npm run start``` this command installs dependecies, builds dist, runs server.
+
+Or run via Dockerfile included (```run_container.sh``` can be used).
 
 # Code structure
 
