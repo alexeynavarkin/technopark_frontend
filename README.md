@@ -1,5 +1,9 @@
 # Technopark frontend project
 
+# UI UX
+
+All interface screens can be found on [Figma](https://www.figma.com/file/PXfi1Xe1TXSXzFgmho8DHK/Technopark_frontend).
+
 # How to start project?
 
 ## Development:
@@ -13,7 +17,6 @@ dev-server: watch files with live-reload browser
 watch: watch files with just generating files
 
 dev: generate files
-
 
 
 ## Prod: 
